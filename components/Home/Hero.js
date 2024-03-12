@@ -3,16 +3,21 @@ import React from 'react'
 export default function Hero() {
   return (
     <section className='container-fluid hero'>
+      <div className='container hero__container'>
         <div className='row'>
-            <article className='col-6'>
-                <h1>Hey, Mi nombre es Carlos</h1>
-            </article>
-            <article className='col-6'>
-                <h1>Hola Mundo</h1>
-            </article>
-
+          <div className='col-lg-6'>
+            <section className='d-md-flex'>
+              <h1 className='hero__title'>Hey There, <br/> I’m Carlos</h1>
+              <p className='hero__subtitle'>
+                I design beautifully simple things, <br /> And I love what i do
+              </p>
+            </section>
+            {/* Probablemnete vaya mi correo */}
+            {/* Probablemnete vaya mi experiencia */} 
+            
+          </div>
         </div>
-        <h2> Hero </h2>
+      </div>            
     </section>
   )
 }

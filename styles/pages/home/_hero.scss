@@ -1,3 +1,19 @@
 .hero {
     background-color: $color-primary;
+
+
+    &__title {
+        color: #000;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 50px;        
+    }
+    &__subtitle {
+        color: #25383F;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
 }
